@@ -71,7 +71,7 @@ class CalendarWidget extends Widget implements HasActions, HasForms
     use InteractsWithEventRecord;
     use InteractsWithForms;
 
-    protected static string $view = 'guava-calendar::widgets.calendar';
+    protected string $view = 'guava-calendar::widgets.calendar';
 
     protected int | string | array $columnSpan = 'full';
 
