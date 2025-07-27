@@ -15,7 +15,7 @@ trait HasSchema
         return $this;
     }
 
-    public function getSchema(?string $model = null): ?array
+   public function getCalendarSchema(?string $model = null): ?array
     {
         return $this->evaluate($this->schema, [
             'model' => $model,
